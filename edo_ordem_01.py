@@ -23,5 +23,5 @@ for element in vector_time:
 
 print(vector_time, vector_result)
 
-#matplotlib.pyplot.plot(vector_time, vector_result)
-#matplotlib.pyplot.show()
+matplotlib.pyplot.plot(vector_time, vector_result)
+matplotlib.pyplot.show()
