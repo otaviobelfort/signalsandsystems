@@ -6,10 +6,10 @@ permite a execução no terminal com -> ./namefile.py
 """
     - Bibliografia: Boyce, W. E. and Diprima, R. C. (2012). Equações Diferenciais Elementares e
 Problemas de Valores de Contorno. LTC, 9 edition.
-   
+
    Autor: Otávio Belfort
    
-   github.com/otaviobelfort | facebook.com/otaviobelforth | youtube.com/user/canalwrkits
+   github.com/otaviobelfort | facebook.com/otaviobelforth | 
 """  
 
 import matplotlib.pyplot
