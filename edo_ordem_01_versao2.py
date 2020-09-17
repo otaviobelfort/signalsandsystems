@@ -1,5 +1,13 @@
+#!/usr/bin/env python3
+"""
+    Bibliografia: 
+    - Boyce, W. E. and Diprima, R. C. (2012). Equações Diferenciais Elementares e
+Problemas de Valores de Contorno. LTC, 9 edition.
+    - http://www.doc.mmu.ac.uk/STAFF/S.Lynch/DSAP_Jupyter_Notebook.html
 
-
+   Autor: Otávio Belfort
+   github.com/otaviobelfort | facebook.com/otaviobelforth | 
+"""  
 import matplotlib.pyplot as plt
 import numpy as np
 import math
@@ -25,9 +33,11 @@ plt.ylabel('(P(t))')
 plt.title('População de corujas - time plot')
 plt.grid(True)
 plt.savefig("População de corujas - time plot")
+# Graphic: https://github.com/otaviobelfort/signalsandsystems/blob/master/Popula%C3%A7%C3%A3o%20de%20corujas%20-%20time%20plot.png 
 '''
 plt.title('Sistemas Físico - time plot')
 plt.grid(True)
 plt.savefig("Sistemas Físico - time plot")
+# Graphic: https://github.com/otaviobelfort/signalsandsystems/blob/master/Sistemas%20F%C3%ADsico%20-%20time%20plot.png
 
 plt.show()
