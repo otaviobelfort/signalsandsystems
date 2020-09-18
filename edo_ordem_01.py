@@ -23,17 +23,22 @@ def vector_generetor(i0,n,i1):
     for element in vetor_t:
         vector_time.append(interval * element)
     return vector_time
-a = -0.2
+a = 0.5
 b = 450
-c = 1# c=0 equilibrio, - 
-v_p = b/a
-vector_result = []
-vector_result2 = []
+# calcular c
+#c = 1# c=0 equilibrio, - 
 vector_time = vector_generetor(1,100,1)
-for element in vector_time:
-    vector_result.append(50 + (c*math.exp(a*element)))
+def edo_ordem_01(a,b,vector_time):
+    v_p = b/a
+    vector_result = []
+    vector_result2 = []
+    #vector_time = vector_generetor(1,100,1)
+    for element in vector_time:
+        vector_result.append(900 + (math.exp(a*element)))
 
-#print(vector_result)
+    #print(vector_result)
 
-matplotlib.pyplot.plot(vector_time, vector_result)
-matplotlib.pyplot.show() # plot graph
+    matplotlib.pyplot.plot(vector_time, vector_result)
+    matplotlib.pyplot.show() # plot graph
+
+edo_ordem_01(a,b,vector_time)
