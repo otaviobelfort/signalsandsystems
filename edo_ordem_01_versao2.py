@@ -14,9 +14,7 @@ import math
 
 t = np.arange(0.0, 50, 0.1) # vector generetor the time
 
-'''
-a, b, = 0.5, 450 # constantes
-'''
+#a, b, = 0.5, 450 # constantes
 a, b= -0.2, -9.8
 
 def edo_ordem_01(a, b, t):
@@ -39,7 +37,6 @@ def edo_ordem_01(a, b, t):
     plt.grid(True)
     plt.savefig("Sistemas Físico - time plot")
     # Graphic: https://github.com/otaviobelfort/signalsandsystems/blob/master/Sistemas%20F%C3%ADsico%20-%20time%20plot.png
-
     plt.show()
 
 #plot
