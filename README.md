@@ -101,6 +101,7 @@ def time_scale_change(x, t, a):
 time_scale_change(x, t,0.3)
 ```
 ![Gráfico](https://github.com/otaviobelfort/signalsandsystems/blob/master/sigmal_triangular.png?raw=true)
+| <img src="https://github.com/otaviobelfort/signalsandsystems/blob/master/sigmal_triangular.png?raw=true" width="250"> | <img src="https://github.com/otaviobelfort/signalsandsystems/blob/master/sigmal_triangular.png?raw=true" width="250">|
 
 ## Em construção ....
 
