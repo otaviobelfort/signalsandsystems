@@ -1,14 +1,6 @@
 # Sinais e Sistemas
-> Short blurb about what your product does.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
-One to two paragraph statement about your product and what it does.
-
-![](trinagular juntas.png)
-
+![Gráfico][trinagular_juntas.png][]
 
 
 ## Code 01
@@ -53,20 +45,11 @@ edo_ordem_01(a,b,vector_time)
 ```
 
 
-```sh
-edit autoexec.bat
-```
-
-
 
 ## Questão
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+ `y(t) = x(at)` para qualquer valor de a. A função deve receber o vetor `x`, `t` e a constante `a` e retornar o vetor `y` e o novo vetor `t`.
 
-```sh
-make install
-npm test
-```
 
 ## Variáveis independentes
  `y(t) = x(at)`
@@ -74,7 +57,7 @@ npm test
     * O sinal comprime:  `Se a > 1`
     * O sinal expande: `Se 0 < a < 1`
 
-![](trinagular juntas.png)
+![](trinagular_juntas.png)
 ## Code 02
 
 Bibliotecas:
