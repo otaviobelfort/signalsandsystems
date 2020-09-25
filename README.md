@@ -1,6 +1,5 @@
 # Sinais e Sistemas
 
-![Gráfico][trinagular_juntas.png][]
 
 
 ## Code 01
@@ -101,6 +100,7 @@ def time_scale_change(x, t, a):
 
 time_scale_change(x, t,0.3)
 ```
+![Gráfico](https://github.com/otaviobelfort/signalsandsystems/blob/master/graf_%20triangular.png?raw=true)
 
 ## Em construção ....
 
